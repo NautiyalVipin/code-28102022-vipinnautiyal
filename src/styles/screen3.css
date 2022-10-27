@@ -1,0 +1,78 @@
+
+/* ------------------------- Screen 3 Styles -------------------------- */
+.screen3 {
+    padding-inline: 4vw;
+    display: none;
+    margin-bottom: 130px;
+    margin-left: 2.4rem;
+}
+
+/* -------------------- Screen 3 Rooms Card Styles ----------------- */
+.screen3__rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: space-evenly;
+}
+
+/* ---------------Screen 3 Heading Styles --------------- */
+.screen3__heading2 {
+  font-size: var(--heading-5);
+  font-family: var(--font-2);
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.screen3__heading3 {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: var(--font-2);
+  line-height: 110%;
+}
+
+.screen3 >.screen2__heading2{
+    margin-bottom: 4rem;
+}
+
+/* Targetting each room card through descendant selectors and setting respective width and height */
+.screen3__rooms > :nth-child(1) {
+  width: 400px;
+  height: 277px;
+}
+.screen3__rooms > :nth-child(2) {
+  width: 500px;
+  height: 334px;
+}
+.screen3__rooms > :nth-child(3) {
+  width: 400px;
+  height: 503px;
+  margin-top: 0.5rem;
+}
+.screen3__rooms > :nth-child(4) {
+  width: 500px;
+  height: 500px;
+  margin-top: 3rem;
+}
+
+/* image dimensions for all the cards */
+.screen3__rooms img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+/* Blurred information box for rooms card */
+.screen3__room-info {
+  width: 350px;
+  height: 100px;
+}
+
+/* ------------------------------- Media Querries( Mobile First Design) ----------------------------------------- */
+
+/* ------------------------------------- Screens  ----------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  /* Show Screen3 for medium and larger screens */
+  .screen3{
+    display: grid;
+  }
+}

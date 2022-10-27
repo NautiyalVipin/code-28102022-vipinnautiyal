@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/code-28102022-vipinnautiyal/static/css/main.ec013273.css",
+    "main.js": "/code-28102022-vipinnautiyal/static/js/main.5267e10c.js",
+    "static/media/desktop.png": "/code-28102022-vipinnautiyal/static/media/desktop.c91d6b9cc27fb31e8d7c.png",
+    "static/media/room6.png": "/code-28102022-vipinnautiyal/static/media/room6.057f08743dd7c832dfc7.png",
+    "static/media/room1.png": "/code-28102022-vipinnautiyal/static/media/room1.95fb2aa1904ad2fb3c1e.png",
+    "static/media/room2.png": "/code-28102022-vipinnautiyal/static/media/room2.16564fdf4201e2e908e1.png",
+    "static/media/room4.png": "/code-28102022-vipinnautiyal/static/media/room4.3b280285f9b910ad4b0c.png",
+    "static/media/room5.png": "/code-28102022-vipinnautiyal/static/media/room5.ffab0a9d05d044d3dbc0.png",
+    "static/media/room3.png": "/code-28102022-vipinnautiyal/static/media/room3.a6ebfa5f3ce1f7b9b356.png",
+    "index.html": "/code-28102022-vipinnautiyal/index.html",
+    "main.ec013273.css.map": "/code-28102022-vipinnautiyal/static/css/main.ec013273.css.map",
+    "main.5267e10c.js.map": "/code-28102022-vipinnautiyal/static/js/main.5267e10c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec013273.css",
+    "static/js/main.5267e10c.js"
+  ]
+}
